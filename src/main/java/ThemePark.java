@@ -19,7 +19,7 @@ public class ThemePark {
         return this.reviewedAttractions;
     }
 
-    public void visit(Visitor visitor, RollerCoaster attraction) {
+    public void visit(Visitor visitor, Attraction attraction) {
         visitor.addAttraction(attraction);
         attraction.increaseVisitCount(visitor);
     }
