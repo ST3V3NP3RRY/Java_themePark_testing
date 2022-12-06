@@ -1,8 +1,7 @@
 import attractions.Attraction;
-import attractions.RollerCoaster;
 import behaviours.IReviewed;
 import people.Visitor;
-import stalls.Stall;
+
 
 import java.util.ArrayList;
 

@@ -34,7 +34,6 @@ public class ThemeParkTest {
         ArrayList<IReviewed> attractions = new ArrayList<>();  // Make an empty ArrayList<IReviewed>
         attractions.add(dodgems);
         attractions.add(rollercoaster);
-        attractions.add(iceCreamStall);
         ThemePark adventureLand = new ThemePark(attractions);  // Add attractions and then pass them into instance of themePark
         assertEquals(attractions, adventureLand.getAllReviewed());  //Should get Arraylist of attractions back when we call getAllReviewed
     }
@@ -44,7 +43,6 @@ public class ThemeParkTest {
         ArrayList<IReviewed> attractions = new ArrayList<>();
         attractions.add(dodgems);
         attractions.add(rollercoaster);
-        attractions.add(iceCreamStall);
         ThemePark wonderLand = new ThemePark(attractions);
 
         wonderLand.visit(visitor, rollercoaster);
